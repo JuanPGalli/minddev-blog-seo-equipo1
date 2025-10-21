@@ -1,0 +1,39 @@
+:root{
+  --blanco-puro: #FFFFFF ;
+  --borde-morado: #5355DD;
+  --azul-profundo: #0F172A;
+  --celeste-electrico: #3B82F6;
+  --texto-inter: 'Inter', sans-serif;
+  
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--azul-profundo);
+}
+
+
+
+
+/* 🎨 **| PALETA CORPORATIVA — MINDDEV PERÚ |**
+ 
+
+**Colores Principales**  
+⚪ **Blanco Puro** `#FFFFFF` → Texto principal, fondos limpios  
+🟣 **Borde Morado** `#5355DD` → Líneas, bordes, detalles  
+🔵 **Azul Profundo** `#0F172A` → Fondo principal, encabezados  
+💠 **Celeste Eléctrico** `#3B82F6` → Acentos visuales, coherencia  
+
+**Tipografía Oficial**  
+🔤 **Inter** — para cuerpo de texto, títulos y secciones principales.  
+Aporta claridad, modernidad y equilibrio visual.  
+
+**Notas Visuales**  
+• Contraste blanco + azul profundo = estética tecnológica  
+• Azul eléctrico transmite innovación  
+• Borde morado da un toque distintivo  
+• Inspiración: minimalismo tecnológico (estilo Apple)  
+
+**➡️ Aplicar en:** interfaces, branding y materiales promocionales para mantener coherencia en todos los proyectos.  
+
+👥 *Equipo de Dirección Creativa — MindDev**/
