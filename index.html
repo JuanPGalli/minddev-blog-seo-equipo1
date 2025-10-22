@@ -12,17 +12,20 @@
 
 <body>
   <!-- HEADER -->
-  <header class="header">
+  <header class="sticky top-0 z-40 transition-all duration-300 bg-deep-blue/0 pt-1">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-center">
-      <a href="#" class="logo">
-         <img src="https://minddevperu.com/assets/images/icon-emp/logo-header.png" alt="MindDev Perú Logo">
-      </a>
-      <nav class="navbar" id="navbar">
-        <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#articulo">Artículo</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
+      <nav class="bg-dark-alt rounded-full shadow-2xl p-2 flex items-center justify-between max-w-5xl w-full border border-electric-blue/20 transition-all duration-300 px-6" id="navbar">
+        <div class="flex items-center p-2">
+          <a href="#" class="flex items-center space-x-2">
+             <img class="h-8 sm:h-9 w-auto object-contain" src="https://minddevperu.com/assets/images/icon-emp/logo-header.png" alt="MindDev Perú Logo">
+          </a>
+
+        </div>
+        <div class="hidden lg:flex items-center space-x-8 text-sm font-medium">
+          <a href="#inicio" class="p-2 rounded-full hover:bg-deep-blue/50 nav-item-hover group flex flex-col items-center">Inicio</a>
+          <a href="#articulo" class="p-2 rounded-full hover:bg-deep-blue/50 nav-item-hover group flex flex-col items-center">Artículo</a>
+          <a href="#contacto" class="p-2 rounded-full hover:bg-deep-blue/50 nav-item-hover group flex flex-col items-center">Contacto</a>
+        </div>
       </nav>
     </div>
   </header>
