@@ -30,42 +30,69 @@
     id="main-header"
   >
     <!-- NAVBAR -->
-    <header
-      class="flex justify-between items-center pt-20 pb-10 px-10 bg-[#0b1423]/95 backdrop-blur-md fixed w-full top-0 z-50"
-    >
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex justify-center">
+    <header class="fixed w-full top-0 z-50 bg-[#0b1423]/95 backdrop-blur-md border-b border-[#3B82F6]/20">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-3 md:py-4">
         <nav
-          class="bg-dark-alt rounded-full shadow-2xl p-2 flex items-center justify-between max-w-5xl w-full border border-[#3B82F6]/24 transition-all duration-300 px-6"
+          class="bg-dark-alt/90 rounded-full shadow-xl flex items-center justify-between border border-[#3B82F6]/30 px-5 py-2 lg:py-3 max-w-5xl mx-auto transition-all duration-300"
           id="floating-nav"
         >
-          <div class="flex items-center p-2">
+          <!-- Logo -->
+          <div class="flex items-center">
             <a href="#inicio" class="flex items-center space-x-2">
               <img
                 src="https://minddevperu.com/assets/images/icon-emp/logo-header.png"
                 alt="Logo-Minddev Perú"
-                class="h-8 sm:h-9 w-auto object-contain"
+                class="h-7 sm:h-8 w-auto object-contain"
               />
             </a>
           </div>
-          <div
-            class="hidden lg:flex items-center space-x-8 text-sm font-medium"
-          >
+
+          <!-- Links desktop -->
+          <div class="hidden lg:flex items-center space-x-8 text-sm font-medium text-white">
             <a href="#" class="text-white">Inicio</a>
             <a href="#" class="text-white">Servicios</a>
             <a href="#" class="text-white">Proceso</a>
             <a href="#" class="text-white">Equipo</a>
             <a href="#" class="text-white">Portfolio</a>
           </div>
-          <div class="flex items-center space-x-3">
-            <button
-              class="ml-6 bg-[#3ba3ff] hover:bg-[#328ee0] text-white text-sm font-semibold py-2 px-5 rounded-full transition"
-            >
+
+          <!-- Botón cotizar -->
+          <div class="">
+            <button class="bg-[#3ba3ff] hover:bg-[#328ee0] text-white text-sm font-semibold py-2 px-5 rounded-full transition">
               Cotizar
             </button>
           </div>
+
+            <!-- Botón menú móvil -->
+            <button id="menu-toggle" class="lg:hidden text-white hover:text-[#3ba3ff] focus:outline-none">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
         </nav>
+
+        <!-- Menú desplegable móvil -->
+        <div id="mobile-menu" class="hidden flex flex-col items-start mt-3 bg-[#0b1423]/95 rounded-xl  py-4 space-y-3 text-white font-medium lg:hidden">
+          <a href="#" class="">Inicio</a>
+          <a href="#" class="">Servicios</a>
+          <a href="#" class="">Proceso</a>
+          <a href="#" class="">Equipo</a>
+          <a href="#" class="">Portfolio</a>
+          <button class="bg-[#3ba3ff] hover:bg-[#328ee0] text-white text-sm font-semibold py-2 px-5 rounded-lg transition w-full">
+            Cotizar
+          </button>
+        </div>
       </div>
     </header>
+
+    <script>
+      const menuToggle = document.getElementById("menu-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      menuToggle.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+    </script>
 
     <!-- HERO SECTION -->
     <section id="hero-image"
