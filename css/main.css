@@ -1,5 +1,4 @@
 @import url('../css/whatsap.css');
-@import url('../css/hero.css');
 @import url('../css/main-info.css');
 :root{
   --blanco-puro: #FFFFFF ;
@@ -7,7 +6,7 @@
   --azul-profundo: #0F172A;
   --celeste-electrico: #3B82F6;
   --texto-inter: 'Inter', sans-serif;
-  
+
 }
 * {
   box-sizing: border-box;
