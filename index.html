@@ -34,7 +34,7 @@
   >
     <!-- NAVBAR -->
     <header
-      class="fixed w-full top-0 z-50 bg-[#0b1423]/95 backdrop-blur-md border-b border-[#3B82F6]/20"
+      class="w-full top-0 z-50 bg-[#0b1423]/95 backdrop-blur-md border-b border-[#3B82F6]/20"
     >
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-3 md:py-4">
         <nav
@@ -97,7 +97,7 @@
         <!-- Menú desplegable móvil -->
         <div
           id="mobile-menu"
-          class="hidden  flex-col items-start mt-3 bg-[#0b1423]/95 rounded-xl py-4 space-y-3 text-white font-medium lg:hidden"
+          class="hidden flex flex-col items-start mt-3 bg-[#0b1423]/95 rounded-xl py-4 space-y-3 text-white font-medium lg:hidden"
         >
           <a href="#" class="">Inicio</a>
           <a href="#" class="">Servicios</a>
@@ -114,11 +114,11 @@
     </header>
 
     <script>
-      const menuToggle = document.getElementById("menu-toggle");
-      const mobileMenu = document.getElementById("mobile-menu");
+      const menuToggle = document.getElementById('menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
 
-      menuToggle.addEventListener("click", () => {
-        mobileMenu.classList.toggle("hidden");
+      menuToggle.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
       });
     </script>
 
