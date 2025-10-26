@@ -35,10 +35,16 @@
   box-shadow: 0 0 12.1px 0 var(--Light-blue-Opacity-8, rgba(59, 130, 246, 0.08));
   margin-top: 20px;
 }
-
+.sidebar-boxB {
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 12.1px 0 var(--Light-blue-Opacity-8, rgba(59, 130, 246, 0.08));
+  margin-top: 20px;
+  border: 1px solid var(--Light-grey-Opacity-40, rgba(189, 189, 189, 0.4));
+  background: var(--mirage-800, #0f1a37);
+}
 
 @media (max-width: 1024px) {
- 
   .main-container{
     display: flex;
     flex-direction: column;
