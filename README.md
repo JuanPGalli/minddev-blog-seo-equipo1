@@ -37,7 +37,7 @@ El blog será integrado próximamente en la web principal de **[MindDev Perú](h
 
 - **Diseño:** Figma
 - **Desarrollo:** HTML, CSS, JavaScript, Tailwind
-- **Gestión de versiones:** GitHub
+- **Gestión de versiones:** Git
 - **Deploy:** Netlify / Vercel
 - **Comunicación:** Discord, whatsApp, email.
 
