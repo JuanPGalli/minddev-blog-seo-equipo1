@@ -604,45 +604,115 @@
 
     <!-- FEEDBACK SECTION -->
     <section class="bg-dark-alt py-16">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-3xl font-bold text-white mb-4">
-          ¿Qué te pareció nuestro post?
-        </h2>
-        <p class="text-gray-400 mb-8">Tu opinión nos ayuda a mejorar</p>
-        <div class="flex justify-center space-x-6">
-          <button
-            class="feedback-emoji text-4xl hover:scale-110 transition"
-            data-emoji="👍"
-          >
-            👍
-          </button>
-          <button
-            class="feedback-emoji text-4xl hover:scale-110 transition"
-            data-emoji="❤️"
-          >
-            ❤️
-          </button>
-          <button
-            class="feedback-emoji text-4xl hover:scale-110 transition"
-            data-emoji="😂"
-          >
-            😂
-          </button>
-          <button
-            class="feedback-emoji text-4xl hover:scale-110 transition"
-            data-emoji="😊"
-          >
-            😊
-          </button>
-          <button
-            class="feedback-emoji text-4xl hover:scale-110 transition"
-            data-emoji="😮"
-          >
-            😮
-          </button>
-        </div>
-      </div>
-    </section>
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl font-bold text-white mb-4">
+      ¿Qué te pareció nuestro post?
+    </h2>
+    <p class="text-gray-400 mb-8">Tu opinión nos ayuda a mejorar</p>
+
+    <div
+      id="feedback-container"
+      class="flex flex-wrap justify-center gap-5 sm:gap-8"
+    >
+      <!-- Botones de reacciones -->
+      <button
+        class="reaction group flex flex-col items-center space-y-1 transition-transform hover:scale-110 sm:scale-0.90"
+        data-reaction="like"
+      >
+        <img
+          src="./assets/icons/like-desktop.png"
+          alt="Like"
+          class="w-10 sm:w-12 h-auto"
+        />
+        <span
+          class="reaction-count text-white text-sm sm:text-base font-semibold"
+        >
+          0
+        </span>
+      </button>
+
+      <button
+        class="reaction group flex flex-col items-center space-y-1 transition-transform hover:scale-110 sm:scale-0.90"
+        data-reaction="heart"
+      >
+        <img
+          src="./assets/icons/corazon-desktop.png"
+          alt="Heart"
+          class="w-10 sm:w-12 h-auto"
+        />
+        <span
+          class="reaction-count text-white text-sm sm:text-base font-semibold"
+        >
+          0
+        </span>
+      </button>
+
+      <button
+        class="reaction group flex flex-col items-center space-y-1 transition-transform hover:scale-110 sm:scale-0.90"
+        data-reaction="care"
+      >
+        <img
+          src="./assets/icons/meimporta-desktop.png"
+          alt="Care"
+          class="w-10 sm:w-12 h-auto"
+        />
+        <span
+          class="reaction-count text-white text-sm sm:text-base font-semibold"
+        >
+          0
+        </span>
+      </button>
+
+      <button
+        class="reaction group flex flex-col items-center space-y-1 transition-transform hover:scale-110 sm:scale-0.90"
+        data-reaction="haha"
+      >
+        <img
+          src="./assets/icons/risa-desktop.png"
+          alt="Haha"
+          class="w-10 sm:w-12 h-auto"
+        />
+        <span
+          class="reaction-count text-white text-sm sm:text-base font-semibold"
+        >
+          0
+        </span>
+      </button>
+
+      <button
+        class="reaction group flex flex-col items-center space-y-1 transition-transform hover:scale-110 sm:scale-0.90"
+        data-reaction="wow"
+      >
+        <img
+          src="./assets/icons/wow-desktop.png"
+          alt="Wow"
+          class="w-10 sm:w-12 h-auto"
+        />
+        <span
+          class="reaction-count text-white text-sm sm:text-base font-semibold"
+        >
+          0
+        </span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<script>
+  const reactions = document.querySelectorAll('.reaction');
+
+  reactions.forEach((button) => {
+    const countEl = button.querySelector('.reaction-count');
+    let count = 0;
+
+    button.addEventListener('click', () => {
+      count++;
+      countEl.textContent = count;
+      button.classList.add('scale-110');
+      setTimeout(() => button.classList.remove('scale-110'), 200);
+    });
+  });
+</script>
 
     <!-- RELATED ARTICLES -->
     <section class="py-16">
