@@ -26,7 +26,7 @@
         font-family: "Inter", sans-serif;
       }
     </style>
-    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body
     class="font-sans sticky top-0 z-40 pt-1 bg-mirage/900 transition-all duration-300"
@@ -152,45 +152,23 @@
       </div>
     </section>
 
-    <!-- ARTICULOS -->
-    <main class="pb-24">
+   <!-- ARTICULOS -->
+    <main class="pb-12">
       <div class="main-container">
         <div>
           <section class="articles-section">
-            <div class="owner-info flex items-center gap-4 mb-4">
-              <img
-                src="./assets/img/micaelaNieves.svg"
-                alt="Micaela Nieves"
-                class="micaela-nieves"
-              />
-              <div class="flex flex-col">
-                <h3 class="text-2xl font-semibold leading-tight">
-                  Micaela Nieves
-                </h3>
-                <p class="text-xs font-normal text-[#BDBDBD] leading-tight">
-                  Product Owner en MindDev
-                </p>
-              </div>
-            </div>
-
-            <div class="article-media">
-              <img
-                src="./assets/img/productOwner.svg"
-                alt="Gráfico SEO"
-                class="featured-image"
-              />
-            </div>
-            <article>
+            
+             <article>
               <!---------------------------------------------->
 
               <div class="relative inline-block group">
                 <!-- Botón principal -->
                 <button
-                  class="flex items-center mt-12 ml-6 gap-1 text-white text-lg font-semibold cursor-pointer max-[460px]:text-xs"
+                  class="flex items-center ml-6 gap-1 text-white text-base cursor-pointer xs:text-xs"
                 >
                   <span
                     class="transition-transform duration-300 group-hover:rotate-90 group-hover:text-electric-blue"
-                    >&lt;</span
+                    >&gt;</span
                   >
                   <span
                     class="transition-colors duration-300 group-hover:text-electric-blue"
@@ -200,10 +178,10 @@
 
                 <!-- Menú desplegable -->
                 <div
-                  class="absolute left-0 mt-2 md:w-[90%] lg:w-[600px] bg-[#0F1A37] rounded-[2px] border border-blue-500/25 shadow-lg  invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-10"
+                  class="absolute left-0 mt-2 w-[300px] md:w-[500px] lg:w-[600px] bg-[#0F1A37] rounded-[2px] border border-blue-500/25 shadow-lg  invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-10"
                 >
                 <h4 class="text-base text-white mx-8 px-4 py-2 mt-6 ">Introducción</h4>
-                  <ul class="py-2 text-base text-white mx-8">
+                  <ul class="py-2 text-base text-white ml-8">
                     <li>
                       <a
                         href="#iaConversacional"
@@ -255,11 +233,11 @@
               <!---------------------------------------------->
 
               <div
-                class="border-l-2 border-electric-blue p-4 mt-12 max-[460px]:border-l-1"
+                class="border-l-1 border-blue-500/25 px-4 md:pr-2 my-8 md:my-6"
               >
-                <h2 class="text-3xl font-bold mb-4 max-[460px]:text-xl">Introducción</h2>
+                <h2 class="text-[32px] text-semibold xl:mb-4 mb-2 max-[460px]:text-2xl">Introducción</h2>
 
-                <p class="max-[460px]:text-xs">
+                <p class="xl:text-lg md:text-base md:pr-2">
 
                   El SEO ya no se trata solo de palabras clave o enlaces. En
                   2025, los motores de búsqueda evolucionan para entender la
@@ -270,9 +248,9 @@
                   estratégica que combina datos, tecnología y contenido humano.
                 </p>
               </div>
-              <div class="mt-8 bg-[rgba(83,85,221,0.56)] p-4">
-                <p class="text-white text-base max-[460px]:text-xs">
-                  🎯 En MindDev Perú, analizamos las 5 tendencias más relevantes
+              <div class="md:mt-6 md:mb-8 rounded bg-[rgba(83,85,221,0.56)] p-4 md:px-8 md:mb-6">
+                <p class="text-white xl:text-lg pr-2 md:text-base">
+                  🎯 En <strong>MindDev Perú</strong>, analizamos las 5 tendencias más relevantes
                   que marcarán la diferencia en tu estrategia de SEO & Marketing
                   Digital este año.
                 </p>
@@ -283,27 +261,27 @@
               <div>
                 <ol>
                   <li
-                    class="text-3xl mt-12 font-bold mb-6 scroll-mt-52 max-[460px]:text-base"
+                    class="text-2xl text-semibold pt-6 mb-4 md:mb-2"
                     id="iaConversacional"
                   >
                     1. La IA conversacional transforma el SEO
                   </li>
-                  <p class="max-[460px]:text-xs">
+                  <p class=" xl:text-lg md:text-base">
                     La inteligencia artificial conversacional -como ChatGPT,
                     Gemini, Copilot y Perplexity- está redefiniendo cómo los
                     usuarios buscan información. Ya no escriben frases exactas,
                     sino preguntas naturales, lo que impulsa la búsqueda
                     semántica.
                   </p>
-                  <p class="text-base font-bold my-4 max-[460px]:text-sm">
+                  <p class="xl:text-lg font-semibold mt-6 mb-4  md:text-base">
                     ¿Qué significa esto para el SEO?
                   </p>
-                  <ul class="max-[460px]:text-xs">
-                    <li class="max-[460px]:mb-2">
+                  <ul class=" xl:text-lg md:text-base">
+                    <li class="max-[460px]:mb-2 mb-4 md:mb-2">
                       • Los motores de búsqueda priorizan respuestas útiles,
                       contextuales y completas.
                     </li>
-                    <li class="max-[460px]:mb-2">
+                    <li class="max-[460px]:mb-2 mb-4 md:my-2">
                       • El contenido debe estar optimizado para intenciones de
                       búsqueda, no solo palabras clave.
                     </li>
@@ -312,201 +290,196 @@
                       hace esencial escribir de forma natural y conversacional.
                     </li>
                   </ul>
-                  <div class="mt-8 border-1 border-electric-blue p-4">
-                    <h3 class="text-base font-bold inline-flex max-[460px]:text-xs">Tip MindDev</h3>
+                  <div class="my-6 rounded border border-blue-500/60 bg-[#131F3B] py-4 px-4 md:px-8">
+                    <h3 class="xl:text-lg text-bold inline-flex mb-2 text-base">Tip MindDev</h3>
                     <img
                       src="./assets/img/logoMindDev.svg"
                       alt="Logo-Minddev Perú"
-                      class="w-20 inline-flex max-[460px]:w-14"
+                      class="w-16 inline-flex max-[460px]:w-14"
                     />
-                    <p class="text-white mt-2 max-[460px]:text-xs ">
-                      Crea contenido que responda directamente a preguntas
-                      comunes con subtítulos tipo “¿Cómo...?”, “¿Por qué...?” y
-                      “¿Cuál es la mejor forma de...?”.
+                    <p class="text-white xl:text-lg text-base">
+                      Títulos en formato de pregunta mejoran el SEO conversacional. Escribe de forma natural y enfocada en dudas reales.
                     </p>
                   </div>
                   <li
-                    class="text-3xl mt-12 font-bold mb-6 scroll-mt-52 max-[460px]:text-base "
+                    class="text-2xl text-semibold pt-6 "
                     id="experienciaUx"
                   >
                     2. La experiencia del usuario (UX) se consolida como factor
                     de ranking
                   </li>
-                  <p class="max-[460px]:text-xs">
+                  <p class=" xl:text-lg my-2 md:my-4 md:pb-4 text-base">
                     Google ya no solo evalúa el contenido: también cómo se
                     siente navegar tu sitio. Los nuevos indicadores de Core Web
                     Vitals 2025 analizan:
                   </p>
-                  <ul class="max-[460px]:text-xs my-4">
+                  <ul class="xl:text-lg mt-4 mb-8 text-base">
                     <li>• Velocidad de carga interactiva (INP).</li>
-                    <li class="my-4">• Estabilidad visual (CLS).</li>
+                    <li class="xl:my-4 my-2">• Estabilidad visual (CLS).</li>
                     <li>• Tiempo hasta la primera acción útil.</li>
                   </ul>
-                  <p class="my-4 max-[460px]:text-xs">
+                  <p class="mb-8 xl:text-lg  text-base">
                     Una web rápida, accesible y bien diseñada mejora el tiempo
                     de permanencia, reduce el rebote y aumenta la autoridad de
                     marca.
                   </p>
-                  <div class="mt-8 border-1 border-electric-blue p-4">
-                    <h3 class="text-base font-bold inline-flex max-[460px]:text-xs">Tip MindDev</h3>
+                   <div class="my-6 rounded border border-blue-500/60 bg-[#131F3B] py-4 px-8">
+                    <h3 class="xl:text-lg text-bold inline-flex text-base mb-2">Tip MindDev</h3>
                     <img
                       src="./assets/img/logoMindDev.svg"
                       alt="Logo-Minddev Perú"
-                      class="w-20 inline-flex max-[460px]:w-14 "
+                      class="w-16 inline-flex max-[460px]:w-14"
                     />
-                    <p class="text-white mt-2 max-[460px]:text-xs">
-                      Optimiza el diseño responsive, mejora los tiempos de carga
-                      y mantén una arquitectura clara. Recuerda: el SEO y el
-                      diseño UX/UI van de la mano.
+                    <p class="text-white xl:text-lg text-base ">
+                      Un sitio rápido y claro mejora la experiencia y el posicionamiento. Céntrate en tres pilares: diseño adaptable, estructura ordenada y velocidad de carga.
                     </p>
                   </div>
 
-                  <li
-                    class="text-3xl mt-12 font-bold mb-6 scroll-mt-52 max-[460px]:text-base "
+                   <li
+                    class="text-2xl text-semibold pt-6 mb-2 md:mb-4"
                     id="busqueda"
                   >
                     3. La búsqueda por voz y los asistentes inteligentes
                   </li>
-                  <p class="max-[460px]:text-xs">
-                    El auge de los dispositivos con IA y los altavoces
-                    inteligentes (Alexa, Google Assistant, Siri, ChatGPT Voice)
-                    impulsa la búsqueda por voz. En 2025, más del 50% de las
-                    consultas móviles se realizan hablando.
+                  <p class=" xl:text-lg pr-2 text-base">
+                   El auge de los dispositivos con IA y los altavoces inteligentes (Alexa, Google Assistant, Siri, ChatGPT Voice) impulsa la búsqueda por voz. En 2025, más del 50% de las consultas móviles se realizan hablando.
                   </p>
-                  <p class="mt-8 mb-4 max-[460px]:text-sm">Cómo adaptarte:</p>
-                  <ul class="max-[460px]:text-xs my-4">
-                    <li>• Usa lenguaje natural y frases completas.</li>
-                    <li class="my-4">
-                      • Crea secciones de tipo FAQ con preguntas y respuestas
-                      cortas.
+                  <p class="text-lg font-semibold md:mt-6 mt-8 mb-4  text-basee">
+                    Cómo adaptarte:
+                  </p>
+                  <ul class=" xl:text-lg text-base">
+                    <li class="max-[460px]:mb-2">
+                      • Usa lenguaje natural y frases completas.
+                    </li>
+                    <li class="max-[460px]:mb-2 my-4 md:my-2">
+                      • Crea secciones de tipo FAQ con preguntas y respuestas cortas.
                     </li>
                     <li>
-                      • Optimiza tu contenido para micro-momentos (“cerca de
-                      mí”, “cómo hacer”, “cuándo abrir”, etc.).
+                      • Optimiza tu contenido para micro-momentos (“cerca de mí”, “cómo hacer”, “cuándo abrir”, etc.).
                     </li>
                   </ul>
-                  <div class="mt-8 border-1 border-electric-blue p-4">
-                    <h3 class="text-base font-bold inline-flex max-[460px]:text-xs">Tip MindDev</h3>
+                  <div class="my-6 rounded border border-blue-500/60 bg-[#131F3B] py-4 px-4 md:px-8">
+                    <h3 class="xl:text-lg text-bold inline-flex text-base mb-2">Tip MindDev</h3>
                     <img
                       src="./assets/img/logoMindDev.svg"
                       alt="Logo-Minddev Perú"
-                      class="w-20 inline-flex max-[460px]:w-14 "
+                      class="w-16 inline-flex max-[460px]:w-14"
                     />
-                    <p class="text-white mt-2 max-[460px]:text-xs">
-                      Estructura tus textos con marcado Schema FAQ para que los
-                      motores lean tus respuestas con precisión.
+                    <p class="text-white  xl:text-lg text-base">
+                      Usa el marcado Schema FAQ para organizar tus textos. Así los motores de búsqueda entienden mejor tus respuestas.
                     </p>
                   </div>
 
                   <li
-                    class="text-3xl mt-12 font-bold mb-6 scroll-mt-52 max-[460px]:text-base "
+                    class="text-2xl text-semibold pt-6 mb-2 md:mb-4"
                     id="generadoIa"
                   >
                     4. Contenido generado con IA, pero supervisado por humanos
                   </li>
-                  <p class="max-[460px]:text-xs my-2">
-                    Las herramientas de IA permiten generar textos, ideas y
-                    resúmenes en segundos. Sin embargo, el contenido 100%
-                    automatizado pierde autenticidad y valor humano. Google
-                    prioriza el contenido E-E-A-T (Experience, Expertise,
-                    Authoritativeness, Trustworthiness).
+                  <p class=" xl:text-lg text-base">
+                   Las herramientas de IA permiten generar textos, ideas y resúmenes en segundos. Sin embargo, el contenido 100% automatizado pierde autenticidad y valor humano. Google prioriza el contenido E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness).
                   </p>
-                  <p class="mt-8 mb-4 max-[460px]:text-xs">Recomendaciones clave:</p>
-                  <ul class="max-[460px]:text-xs my-4">
+                  <p class="xl:text-lg font-semibold mt-8 md:mt-6 mb-4 text-base">
+                    Recomendaciones clave:
+                  </p>
+                  <ul class=" xl:text-lg text-base">
                     <li>
-                      • Usa IA como apoyo creativo, no como reemplazo del
-                      redactor.
+                      • Usa IA como apoyo creativo, no como reemplazo del redactor.
                     </li>
-                    <li class="my-4">
-                      • Revisa la información, agrega datos reales y
-                      experiencias propias.
+                    <li class="max-[460px]:mb-2 xl:my-4 my-2">
+                      • Revisa la información, agrega datos reales y experiencias propias.
                     </li>
-                    <li>• Aporta tu voz y conocimiento del sector.</li>
+                    <li class="md:pb-2">
+                      • Aporta tu voz y conocimiento del sector.
+                    </li>
                   </ul>
-                  <div class="mt-8 border-1 border-electric-blue p-4">
-                    <h3 class="text-base font-bold inline-flex max-[460px]:text-xs">Tip MindDev</h3>
+                  <div class="my-6 rounded border border-blue-500/60 bg-[#131F3B] py-4 px-4 md:px-8">
+                    <h3 class="xl:text-lg inline-flex text-bold text-base mb-2">Tip MindDev</h3>
                     <img
                       src="./assets/img/logoMindDev.svg"
                       alt="Logo-Minddev Perú"
-                      class="w-20 inline-flex max-[460px]:w-14 "
+                      class="w-16 inline-flex max-[460px]:w-14"
                     />
-                    <p class="text-white mt-2 max-[460px]:text-xs">
-                      Combina IA + revisión humana = contenido escalable y de
-                      calidad.
+                    <p class="text-white xl:text-lg text-base">
+                     Aprovecha la IA para generar contenido de forma rápida y constante. Combinala con una revisión humana para mantener la calidad y el toque auténtico.
                     </p>
                   </div>
+
                   <li
-                    class="text-3xl mt-12 font-bold mb-6 scroll-mt-52 max-[460px]:text-base"
+                    class="text-2xl pt-6 mb-2 md:mb-4 text-semibold"
                     id="seoTecnico"
                   >
                     5. SEO técnico y analítica predictiva
                   </li>
-                  <p class="max-[460px]:text-xs">
-                    El SEO técnico sigue siendo la base invisible del
-                    posicionamiento. En 2025, se vuelve más automatizado y
-                    orientado a datos gracias a la IA analítica.
+                  <p class=" xl:text-lg text-base">
+                   El SEO técnico sigue siendo la base invisible del posicionamiento. En 2025, se vuelve más automatizado y orientado a datos gracias a la IA analítica.
                   </p>
-                  <p class="mt-8 mb-4 max-[460px]:text-xs">Aspectos clave:</p>
-                  <ul class="max-[460px]:text-xs my-4">
+                  <p class="xl:text-lg font-semibold mt-8 md:mt-6 mb-4 text-base">
+                    Aspectos clave:
+                  </p>
+                  <ul class=" xl:text-lg text-base">
                     <li>
-                      • Revisa la indexación inteligente con herramientas como
-                      Search Console y Screaming Frog.
+                      • Revisa la indexación inteligente con herramientas como Search Console y Screaming Frog.
                     </li>
-                    <li class="my-4">
-                      • Implementa datos estructurados (Schema) para mejorar el
-                      CTR.
+                    <li class="max-[460px]:mb-2 my-2 md:my-4 md:my-2">
+                      • Implementa datos estructurados (Schema) para mejorar el CTR.
                     </li>
                     <li>
-                      • Aprovecha modelos predictivos para anticipar tendencias
-                      de tráfico y comportamiento del usuario.
+                     • Aprovecha modelos predictivos para anticipar tendencias de tráfico y comportamiento del usuario.
                     </li>
                   </ul>
-                  <div class="mt-8 border-1 border-electric-blue p-4">
-                    <h3 class="text-base font-bold inline-flex max-[460px]:text-xs">Tip MindDev</h3>
+                  <div class="md:my-6 mt-8 mb-12 rounded border border-blue-500/60 bg-[#131F3B] py-4 px-4 md:px-8">
+                    <h3 class="xl:text-lg text-semibold inline-flex  text-base mb-2">Tip MindDev</h3>
                     <img
                       src="./assets/img/logoMindDev.svg"
                       alt="Logo-Minddev Perú"
-                      class="w-20 inline-flex max-[460px]:w-14 "
+                      class="w-16 inline-flex max-[460px]:w-14"
                     />
-                    <p class="text-white mt-2 max-[460px]:text-xs">
-                      Combina IA + revisión humana = contenido escalable y de
-                      calidad.
+                    <p class="text-white xl:text-lg md:pr-4 text-base">
+                     Controla tus KPIs como visitas orgánicas, CTR y conversiones. Ajusta tu estrategia cada mes según los resultados.
                     </p>
                   </div>
                 </ol>
-                <!--CONCLUSION-->
+                <!---------------CONCLUSION---------------->
+
                 <div
-                  class="mt-40 border-l-2 border-electric-blue p-4 max-[460px]:border-l-1"
-                >
-                  <h2
-                    class="text-3xl font-bold mb-4 scroll-mt-52 max-[460px]:text-xl"
-                    id="conclusion"
-                  >
-                    Conclusión: el futuro del SEO es humano y tecnológico
-                  </h2>
-                  <p class="max-[460px]:text-xs my-4">
-                    El SEO del 2025 combina lo mejor de ambos mundos:</p>
-                  <ul class="max-[460px]:text-xs my-4">
-                    <li class="max-[460px]:text-xs mb-4">• IA para optimizar y analizar.</li>
-                    <li>• Humanos para conectar y emocionar.</li>
+                class="border-l-1 border-blue-500/25 px-4 md:py-4 my-8 md:my-6"
+              >
+                <h2 class="text-[32px]  mb-4 max-[460px]:text-2xl text-semibold" id="conclusion">Conclusión: el futuro del SEO es humano y tecnológico</h2>
+
+                <p class=" xl:text-lg text-base">
+                  El SEO del 2025 combina lo mejor de ambos mundos:
+                </p> <ul class=" md:my-4 mt-4 mb-2 text-base xl:text-lg">
+                    <li class="max-[460px]:text-xs">• IA para optimizar y analizar.</li>
+                    <li class="xl:my-4 my-2">• Humanos para conectar y emocionar.</li>
                   </ul>
-                  <p class="max-[460px]:text-xs">
+                  <p class=" xl:text-lg">
                     Las marcas que comprendan esta dualidad dominarán los
                     rankings.
                   </p>
-                </div>
-                <div class="mt-8 bg-[rgba(83,85,221,0.56)] p-4">
-                  <p class="text-white text-base max-[460px]:text-xs">
-                    🎯 En MindDev Perú, ayudamos a negocios a implementar
+              </div>
+
+                <div class="my-6 bg-[rgba(83,85,221,0.56)] rounded py-4 px-4 md:px-8 text-center">
+                  <p class="text-white  xl:text-lg  md:px-6 text-base">
+                    🎯 En <strong>MindDev Perú</strong>, ayudamos a negocios a implementar
                     estrategias SEO modernas, éticas y efectivas que generan
                     resultados reales.
                   </p>
                 </div>
               </div>
             </article>
+             <div class="flex flex-col py-6">
+                <h3 class="text-2xl leading-tight">
+                  Micaela Nieves
+                </h3>
+                <p class="text-xs font-normal text-[#BDBDBD] leading-tight">
+                  Product Owner en MindDev Perú
+                </p>
+              </div>
           </section>
+          
         </div>
-
+<!-------------------------SIDEBAR------------------------->
         <div class="sidebar-container">
           <aside class="sidebar">
             <div class="sidebar-box">
@@ -516,14 +489,14 @@
                   >digitales</span
                 >
               </h4>
-              <p class="text-[#BDBDBD] text-sm mt-4">
+              <p class="text-[#BDBDBD] text-sm font-normal mt-4 self-start">
                 Especialistas en desarrollo web, aplicaciones móviles y
-                servicios tecnológicos para potenciar tu negocio.
+                servicios tecnológicos para  potenciar tu negocio.
               </p>
               <a
                 href="mailto:contacto@minddevperu.com"
                 target="_blank"
-                class="flex items-center justify-center mt-6 text-center w-full bg-[#3B82F6] p-4 rounded-lg shadow-[0_4px_6.9px_0_var(--Light-blue-Opacity-24)] transition duration-300 hover:bg-accent-purple/90 hover:shadow-lg hover:shadow-accent-purple/30 hover:scale-105"
+                class="flex items-center justify-center text-base mt-6 text-center w-full bg-[#3B82F6] py-4 rounded-lg shadow-[0_4px_6.9px_0_var(--Light-blue-Opacity-24)] transition duration-300 hover:bg-accent-purple/90 hover:shadow-lg hover:shadow-accent-purple/30 hover:scale-105"
               >
                 <img
                   src="./assets/icons/iniciarProyecto-send.svg"
@@ -545,20 +518,20 @@
 
             <div class="sidebar-boxB">
               <h4
-                class="text-base font-extrabold text-electric-blue flex justify-center"
+                class="text-base font-extrabold text-electric-blue flex "
               >
                 <img
-                  src="./assets/icons/te.svg"
+                  src="./assets/icons/teL.svg"
                   alt="Buscar"
                   class="justify-center mr-2"
                 />
                 Tu Comunidad, Nuestra Prioridad
               </h4>
-              <h3 class="mt-6 text-2xl font-bold">Soporte 24/7</h3>
+              <h3 class="mt-4 text-2xl font-bold">Soporte 24/7</h3>
               <p class="mt-4 text-base">+51 903 067 489</p>
             </div>
 
-            <div class="mt-6 text-base text-[#BDBDBD]">
+            <div class="mt-8 text-base text-[#BDBDBD]">
               <p class="mb-2">Síguenos en nuestras redes sociales:</p>
               <div class="flex space-x-4">
                 <a
