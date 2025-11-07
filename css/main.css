@@ -1,5 +1,7 @@
 @import url('../css/whatsap.css');
 @import url('../css/main-info.css');
+@import url('../css/cta.css');
+@import url('../css/related-blogs.css');
 :root{
   --blanco-puro: #FFFFFF ;
   --borde-morado: #5355DD;
