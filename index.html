@@ -710,106 +710,96 @@
   });
 </script>
 
-    <!-- RELATED ARTICLES -->
-    <section class="py-16">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl font-bold text-white mb-12 text-left">
-          Podrían interesarte...
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-          <!-- Article 1 -->
-          <article
-            class="bg-dark-alt/50 rounded-lg overflow-hidden hover:bg-dark-alt/70 transition-all duration-300 shadow-lg hover:shadow-xl"
-          >
-            <!-- Imagen -->
-            <div class="w-full overflow-hidden">
-                <img src="./assets/img/flutter-vs-nativo.jpg" alt="blog-flutter-vs-nativo" class="w-full h-80 sm:h-96 object-cover transition-transform duration-300 hover:scale-105">
-            </div>
+    <!-- RELATED BLOGS -->
+   <section id="blogs" class="py-24 bg-mirage">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="lg:text-[36px] font-semibold lg:ml-40 text-white mb-10 ">Podrían interesarte... </h2>
 
-            <!-- Contenido -->
-            <div class="p-6">
-              <h3 class="text-xl font-bold text-white mb-3">
-                Flutter vs. Nativo: ¿Cuál elegir para tu App?
-              </h3>
-              <p class="text-gray-400 text-sm mb-3">
-                Octubre 22, 2025 - 4 min de lectura
-              </p>
-              <p class="text-gray-300 mb-4">
-                Descubre las ventajas y desventajas de cada enfoque para el
-                desarrollo de aplicaciones móviles.
-              </p>
-              <a
-                href="https://minddevperu.com/blogs/01-tendencia-seo.html"
-                target="_blank"
-                class="text-electric-blue hover:text-blue-400 transition flex items-center font-medium"
-              >
-                Leer más <span class="ml-2">→</span>
-              </a>
-            </div>
-          </article>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <!-- Artículo 1: Experiencia Digital -->
+            <a href="../blogs/01-tendencia-seo.html" class="blog-card rounded-xl block group">
+                <div class="blog-icon-circle-new">
+                    <span data-lucide="trending-up" class="w-6 h-6 text-electric-blue"></span>
+                </div>
 
-          <!-- Article 2 -->
-          <article class="bg-dark-alt/50 rounded-lg overflow-hidden hover:bg-dark-alt/70 transition-all duration-300 shadow-lg hover:shadow-xl">
+                <span class="text-electric-blue text-xs font-semibold mb-1 block uppercase"
+                    data-text-key="blog1_tag">EXPERIENCIA DIGITAL</span>
+                <h3 class="text-2xl text-white font-bold mb-3 blog-title-link">Cómo optimizamos la velocidad y rendimiento de tu sitio web</h3>
+                <p class="text-gray-400 text-base mb-4">Un sitio rápido atrae y retiene usuarios, mejorando a la vez tu posicionamiento SEO.</p>
 
-              <!-- Imagen -->
-              <div class="w-full overflow-hidden">
-                <img src="./assets/img/metodologias-agiles.jpg" alt="blog-metodologias-agiles" class="w-full h-80 sm:h-96 object-cover transition-transform duration-300 hover:scale-105">
-              </div>
-              <!-- Contenido -->
-              <div class="p-6">
-              <h3 class="text-xl font-bold text-white mb-3">
-                Metodologías Ágiles: Guía Completa 2025
-              </h3>
-              <p class="text-gray-400 text-sm mb-3">
-                Octubre 20, 2025 - 6 min de lectura
-              </p>
-              <p class="text-gray-300 mb-4">
-                Todo lo que necesitas saber sobre Scrum, Kanban y otras
-                metodologías ágiles para tu equipo.
-              </p>
-              <a
-                href="https://minddevperu.com/blogs/01-tendencia-seo.html"
-                target="_blank"
-                class="text-electric-blue hover:text-blue-400 transition flex items-center font-medium"
-              >
-                Leer más <span class="ml-2">→</span>
-              </a>
-            </div>
-          </article>
+                <!-- Enlace Leer Artículo -->
+                <span class="blog-read-link" data-text-key="btn_read_article">
+                    Leer Artículo <span data-lucide="arrow-right" class="w-4 h-4 ml-2"></span>
+                </span>
+            </a>
+
+            <!-- Artículo 2: Desarrollo Móvil -->
+            <a href="../blogs/01-tendencia-seo.html" class="blog-card rounded-xl block group">
+                <div class="blog-icon-circle-new">
+                    <span data-lucide="smartphone" class="w-6 h-6 text-accent-purple"></span>
+                </div>
+
+                <span class="text-accent-purple text-xs font-semibold mb-1 block uppercase"
+                    data-text-key="blog2_tag">Desarrollo Móvil</span>
+                <h3 class="text-2xl text-white font-bold mb-3 blog-title-link" data-text-key="blog2_title">Flutter vs.
+                    Nativo: ¿Cuál elegir para tu App?</h3>
+                <p class="text-gray-400 text-base mb-4" data-text-key="blog2_desc">Un análisis comparativo de
+                    costos, rendimiento y tiempo de desarrollo para aplicaciones modernas.</p>
+
+                <!-- Enlace Leer Artículo -->
+                <span class="blog-read-link" data-text-key="btn_read_article">
+                    Leer Artículo <span data-lucide="arrow-right" class="w-4 h-4 ml-2"></span>
+                </span>
+            </a>
+
+            <!-- Artículo 3: Metodología -->
+            <a href="../blogs/01-tendencia-seo.html" class="blog-card rounded-xl block group">
+                <div class="blog-icon-circle-new">
+                    <span data-lucide="code" class="w-6 h-6 text-electric-blue"></span>
+                </div>
+
+                <span class="text-electric-blue text-xs font-semibold mb-1 block uppercase"
+                    data-text-key="blog3_tag">Metodología</span>
+                <h3 class="text-2xl text-white font-bold mb-3 blog-title-link" data-text-key="blog3_title">Cómo
+                    implementamos la Metodología Ágil en Minddev</h3>
+                <p class="text-gray-400 text-base mb-4" data-text-key="blog3_desc">Nuestro proceso de 5 pasos
+                    para garantizar la transparencia y el éxito del proyecto en cada entrega.</p>
+
+                <!-- Enlace Leer Artículo -->
+                <span class="blog-read-link" data-text-key="btn_read_article">
+                    Leer Artículo <span data-lucide="arrow-right" class="w-4 h-4 ml-2"></span>
+                </span>
+            </a>
         </div>
 
-        <!-- Botón -->
-        <div class="text-center">
-          <a
-              href="https://minddevperu.com/blogs/01-tendencia-seo.html"
-              target="_blank"
-            class="bg-dark-alt/70 hover:bg-dark-alt/100 text-white font-semibold py-3 px-8 shadow-xl rounded-lg transition w-full"
-          >
-            Ver más artículos del blog
-          </a>
+        <div class="text-center mt-12">
+            <a href="../blogs/01-tendencia-seo.html"
+                class="inline-flex items-center mb-4 text-lg font-bold text-electric-blue hover:text-white-pure transition duration-300 border-b border-electric-blue/50 hover:border-white-pure/50 pb-0.5"
+                data-text-key="btn_go_blog">
+                Ver más artículos del blog <span data-lucide="chevron-right" class="w-5 h-5 ml-2"></span>
+            </a>
         </div>
-      </div>
-    </section>
+    </div>
+</section>
 
     <!-- CTA BANNER -->
-    <section class="relative bg-gradient-to-r from-deep-blue to-accent-purple overflow-hidden" id="cta-banner">
+    <section class="relative overflow-hidden cta-bg">
       <!-- diagonal highlight -->
-      <!-- <div class="absolute top-0 right-0 w-80 h-48 -translate-y-12 translate-x-12 rotate-12 bg-gradient-to-br from-accent-purple/90 to-transparent opacity-90 pointer-events-none"></div> -->
+      <div class="absolute  pointer-events-none"></div>
 
-
-      <div class="container mx-auto px-3 sm:px-8 lg:px-16 py-16 md:py-24 lg:py-32">
+      <div class="container mx-auto px-3 sm:px-8 lg:px-16 py-16 md:py-24 lg:py-29">
         <div class="w-full max-w-full md:max-w-5xl lg:max-w-6xl xl:max-w-7xl text-left lg:pr-20">
-          <h2 class="text-4xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight text-white mb-6">
-            <span class="bg-gradient-to-r from-accent-purple to-electric-blue bg-clip-text text-transparent">Transforma</span>
+          <h2 class="text-4xl sm:text-4xl md:text-6xl lg:text-5xl font-semibold leading-tight text-white mb-2">
+            <span class="text-[#5355DD] ">Transforma</span>
             <span class="ml-3">tu posicionamiento con expertos.</span>
           </h2>
 
-          <p class="text-lg md:text-lg text-gray-200 max-w-3xl mb-8">
+          <p class="text-lg xl:text-xl md:text-lg text-white max-w-3xl mb-8">
             Contáctanos en MindDev y descubre cómo optimizar tu presencia digital.
           </p>
 
           <div>
-            <a href="https://minddevperu.com/#contacto" class="inline-block bg-accent-purple hover:bg-accent-purple/90 text-white font-semibold py-3 px-8 md:py-4 md:px-10 rounded-full shadow-lg transition transform hover:scale-[1.03]">
+            <a href="https://minddevperu.com/#contacto" class="inline-block bg-accent-purple hover:bg-accent-purple/90 xl:text-lg text-white font-semibold py-3 px-8 md:py-4 md:px-10 rounded-full shadow-lg transition transform hover:scale-[1.03]">
               Contáctanos
             </a>
           </div>
@@ -817,11 +807,10 @@
       </div>
     </section>
 
-
     <!-- FOOTER -->
     <footer
       id="footer"
-      class="relative bg-deep-blue pt-16 pb-8 border-t border-gray-700/50"
+      class="relative bg-deep-blue pt-16 pb-8 xl:mt-24"
     >
       <a
         href="https://wa.me/51903067489?text=Hola,%20quisiera%20solicitar%20una%20cotización."
@@ -858,7 +847,7 @@
         >
           <div class="col-span-2 md:col-span-1">
             <div class="mb-4">
-              <span class="text-3xl font-extrabold text-white-pure"
+              <span class="text-4xl font-extrabold text-white-pure"
                 >MindDev</span
               >
               <span class="text-3xl font-extrabold text-electric-blue"
@@ -866,7 +855,7 @@
               >
             </div>
             <p
-              class="text-sm text-gray-400 mb-4"
+              class="text-base text-gray-400 mb-4"
               data-text-key="footer_mission"
             >
               Transformando ideas en realidad digital con enfoque en el éxito
@@ -874,7 +863,7 @@
             </p>
 
             <div class="space-y-1">
-              <div class="flex items-center space-x-2 text-sm text-gray-300">
+              <div class="flex items-center space-x-2 text-base text-gray-300">
                 <span
                   data-lucide="mail"
                   class="w-4 h-4 text-electric-blue"
@@ -885,7 +874,7 @@
                   >contacto@minddevperu.com</a
                 >
               </div>
-              <div class="flex items-center space-x-2 text-sm text-gray-300">
+              <div class="flex items-center space-x-2 text-base text-gray-300">
                 <span
                   data-lucide="phone"
                   class="w-4 h-4 text-electric-blue"
@@ -897,12 +886,12 @@
 
           <div>
             <h5
-              class="text-lg font-bold text-white-pure mb-4 border-b border-electric-blue/50 pb-2"
+              class="text-lg xl:text[22px] font-bold text-white-pure mb-4 border-b border-electric-blue/50 pb-2"
               data-text-key="footer_header_company"
             >
               Empresa & Legal
             </h5>
-            <ul class="space-y-2 text-gray-400 text-sm">
+            <ul class="space-y-2 text-gray-400 text-base">
               <li data-text-key="footer_link_team">
                 <a href="#equipo" class="hover:text-electric-blue transition"
                   >Conoce al Equipo</a
@@ -934,12 +923,12 @@
 
           <div>
             <h5
-              class="text-lg font-bold text-white-pure mb-4 border-b border-electric-blue/50 pb-2"
+              class="text-lg xl:text[22px] font-bold text-white-pure mb-4 border-b border-electric-blue/50 pb-2"
               data-text-key="footer_header_services"
             >
               Servicios Clave
             </h5>
-            <ul class="space-y-2 text-gray-400 text-sm">
+            <ul class="space-y-2 text-gray-400 text-base">
               <li data-text-key="footer_link_web">
                 <a href="#servicios" class="hover:text-electric-blue transition"
                   >Desarrollo Web</a
@@ -970,12 +959,12 @@
 
           <div>
             <h5
-              class="text-lg font-bold text-white-pure mb-4 border-b border-electric-blue/50 pb-2"
+              class="text-lg xl:text[22px] font-bold text-white-pure mb-4 border-b border-electric-blue/50 pb-2"
               data-text-key="footer_header_resources"
             >
               Recursos
             </h5>
-            <ul class="space-y-2 text-gray-400 text-sm">
+            <ul class="space-y-2 text-gray-400 text-base">
               <li data-text-key="footer_link_blog">
                 <a href="#" class="hover:text-electric-blue transition"
                   >Blog de Tecnología</a
@@ -999,7 +988,7 @@
             <a
               href="https://forms.gle/zz6XzFuDG8dZHAhS9"
               target="_blank"
-              class="mt-6 inline-block w-full py-2 text-center text-sm font-bold rounded-lg transition duration-300 border-2 border-accent-purple bg-transparent hover:bg-accent-purple/90 hover:shadow-lg hover:shadow-accent-purple/30 text-white-pure transform hover:scale-[1.02]"
+              class="mt-6 inline-block w-full py-2 text-center text-base font-bold rounded-lg transition duration-300 border-2 border-accent-purple bg-transparent hover:bg-accent-purple/90 hover:shadow-lg hover:shadow-accent-purple/30 text-white-pure transform hover:scale-[1.02]"
               data-text-key="btn_claims_book"
             >
               LIBRO DE RECLAMACIONES
