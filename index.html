@@ -38,7 +38,7 @@
     >
       <div class="container mx-auto mt-5 lg:mt-7 px-4 sm:px-6 lg:px-8 py-3 md:py-4">
         <nav
-          class="bg-dark-alt/90 rounded-full shadow-xl flex items-center justify-between border border-[#3B82F6]/30 px-5 py-2 lg:py-3 max-w-5xl mx-auto transition-all duration-300"
+          class="bg-dark-alt/90 rounded-full shadow-xl flex items-center justify-between border border-[#3B82F6]/10 px-5 py-2 lg:py-3 max-w-5xl mx-auto transition-all duration-300"
           id="floating-nav"
         >
           <!-- Logo -->
@@ -52,22 +52,17 @@
             </a>
           </div>
 
-          <!-- Links desktop -->
-          <div
-            class="hidden lg:flex items-center space-x-8 text-sm font-medium text-white"
-          >
-            <a href="#" class="text-white">Inicio</a>
-            <a href="#" class="text-white">Servicios</a>
-            <a href="#" class="text-white">Proceso</a>
-            <a href="#" class="text-white">Equipo</a>
-            <a href="#" class="text-white">Portfolio</a>
-          </div>
-
-          <!-- Botón cotizar -->
-          <div class="">
+          <!-- Contenedor Botón Inicio (visible en todas las vistas) y Botón Cotizar (visible en Desktop solamente) -->
+          <div class="flex items-center space-x-4">
+            <a
+              href="https://minddevperu.com/"
+              class="bg-[#3b82f6]/20 text-white text-sm font-semibold py-2 px-7 rounded-full border border-[#3b82f6]/30 transition hover:bg-[#3b82f6]/40"
+            >
+              Inicio
+            </a>
             <a
               href="https://minddevperu.com/#contacto"
-              class="bg-[#3ba3ff] hover:bg-accent-purple transition duration-300 shadow-lg shadow-electric-blue/30 text-white text-sm font-semibold py-2 px-5 rounded-full transition"
+              class="hidden lg:inline-block bg-[#3ba3ff] hover:bg-accent-purple transition duration-300 shadow-lg shadow-electric-blue/30 text-white text-sm font-semibold py-2 px-5 rounded-full transition"
             >
               Cotizar
           </a>
