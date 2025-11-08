@@ -9,7 +9,7 @@
   .cta-bg{
   background-image: url(/assets/img/ctaBgMobil.svg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   }
 }
